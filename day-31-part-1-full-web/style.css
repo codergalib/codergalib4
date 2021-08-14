@@ -1,0 +1,443 @@
+body h1 h2 h3 h4 h5 h6 p span a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.clearfix{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+       /*    header-section    */
+       
+
+.navbar-brand {
+        font-size: 22px;
+        font-weight: 700;
+}    
+.navbar-brand span {
+        font-size: 28px;
+        width: 43px;
+        height: 44px;
+        background: #80a3d8;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 10px;
+}
+.header-drop .nav-link{
+        padding-left: 24px !important;
+        padding-right: 14px !important;
+}
+.btn.btn-outline-primary.btn-lg.font-weight-bold {
+        font-size: 16px;
+        padding: 8px 26px;
+}
+      
+       /*  banner-section  */
+
+.banner-section{
+    background:url(.//img&logo/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.486);
+    z-index: -1;
+}
+.banner-section h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.banner-section h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.slider .form-control {
+    padding: 12px 26px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border: 1px solid #5ba533;
+    border-radius: 7px;
+ 
+}
+.slider .form-control:focus{
+    box-shadow: 0px 0 20px 4px cornflowerblue;
+    border: 1px solid transparent;
+}
+.slider .btn {
+    font-size: 19px;
+    font-weight: 700;
+    padding: 12px 0;
+    background: #5ba533;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.slider .btn:hover{
+    color:cornflowerblue ;
+    border: 1px solid cornflowerblue;
+    box-shadow: 0px 0 20px 4px cornflowerblue;
+    background-color: white;
+
+}
+              /*    counter-namber   */
+
+.counter-namber .h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.counter-namber .text-muted {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+       /*  about-seecction  */
+
+.about-seecction{
+    background: #f7f9ff;
+}
+.about-section-text {
+    margin-top: 161px;
+}
+.about-section-text h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.about-section-text .lead {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+}
+           /* feature section css */
+
+.feature-item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(43, 68, 179, 0.33);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text-sec{
+    width: 60%;
+    padding: 30px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -103px;
+}
+.right-text-sec h4 {
+    font-size: 22px;
+    font-weight: 7
+}
+
+.right-text-sec p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8c8989;
+    margin-top: 28px;
+}
+
+.feature-item:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(35, 61, 179, 0.445);
+    transition: .5s;
+}
+.feature-header h1 {
+    font-size: 51px;
+}
+.feature-header .lead {
+    font-size: 30px;
+    margin-top: 27px;
+}
+
+             /* protfolio-sectiion */
+      
+.protfolio-sectiion h1{
+                font-size: 50px
+}
+.protfolio-item{
+}
+.protfolio-item a {
+                display: ;
+                display: block;
+                position: relative;
+}
+.protfolio-item a::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(98, 121, 223, 0.548);
+                opacity: 0;
+                visibility: hidden;
+                transition: .6s;
+}
+.protfolio-item:hover a::after{
+                opacity: 1;
+                visibility: visible;
+}
+
+
+
+
+            /*  duble-contant  */
+
+.duble-contant{
+    background:#f7f9ff;
+    padding: 50px 0;
+}
+.duble-contant-header h1{
+    font-size: 50px;
+}
+.duble-contant-header .lead {
+    font-size: 22px;
+    padding: 20px 0;
+}
+.duble-contant-item{
+    background: rgb(255, 255, 255);
+    box-shadow: 2.5px 4.33px 30px 0 rgba(35, 61, 179, 0.431);
+}
+.duble-contant-item h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.duble-contant-item p {
+    font-size: 20px;
+    color: #716666;
+    margin: 22px 0;
+    margin-left: 50px;
+}
+.duble-contant-item ul{
+    list-style: none;
+    margin-left: 24px;
+
+}
+.duble-contant-item ul li {
+    font-size: 21px;
+    line-height: 54px;
+    font-weight: 300;
+    color: rgb(138, 131, 131);
+}
+.duble-contant-item span {
+    font-size: 30px;
+    color: cornflowerblue;
+    width: 50px;
+    display: inline-block;
+}
+.duble-contant-item .btn-class{
+    box-shadow: 0 0 7px 3px rgba(0, 0, 255, 0.41);
+    color: #4862d8;
+    border: 3px solid transparent;
+    font-weight: 700;
+}
+.duble-contant-item .btn-class:hover{
+    color:white ;
+    background: black;
+    box-shadow: 0 0 7px 3px transparent;
+    transition: .5s;
+}
+.duble-contant-item:hover .btn-class{
+    background: #4862d8;
+    color: white;
+    box-shadow: 0 0 7px 3px transparent;
+    transition: .5s;
+}
+
+/* about us  */
+
+
+.about-us-item.py-5 {
+    width: 861px;
+    margin: auto;
+}
+.about-us-item h4 {
+    color: #807777;
+    margin: 25px 0;
+}
+.about-us-item h1 {
+    font-size: 43px;
+    margin: -12px 0;
+}
+.about-us-item span {
+    font-size: 67px;
+    color: #605b5b40;
+}
+.about-us-item .lead {
+    font-size: 25px;
+    margin: 34px 0;
+    color: #868585;
+}
+.about-us-bottom {
+    width: 225px;
+    margin: auto;
+}
+.face-div.float-left {
+    margin-left: 53px;
+    width: 61px;
+}
+.face-div.float-left .rounded-circle {
+    width: 58px;
+}
+.about-us-text {
+    position: relative;
+    top: 3px;
+}
+.about-us-item h4 {
+    color: #807777;
+    margin: 25px 0;
+}
+.about-us-text.lead {
+    font-size: 25px;
+    margin: 34px 0;
+    color: #868585;
+}
+.about-us-text .lead {
+    font-size: 20px;
+    color: #868585;
+    margin-top: -22px;
+}
+
+/*   about-me-card-section */
+.about-me-card-section{
+background: #c9d0e4;
+}
+.about-me-card-section .col {
+    font-size: 63px;
+}
+.about-me-card-section h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+.about-me-card-section .col-md-6 {
+    margin-bottom: 38px;
+}
+.about-me-card-section .card img {
+    width: 130px;
+    margin-top: -69px;
+    margin-left: 17px;
+    box-shadow: 0 0 23px 4px #2b2b5b59;
+}
+.card-tiltle.py-2 {
+    font-size: 21px;
+    margin-top: 7px;
+    margin-bottom: -8px;
+    font-weight: 600;
+}
+.card-subtitle.pt-2 {
+    font-size: 23px;
+    font-weight: 400;
+}
+.card .lead.py-2 {
+    font-size: 16.6px;
+    font-weight: 400;
+    color: #817676;
+}
+
+/*  card-section   */
+
+.card-section .card{
+    box-shadow: 2px 3px 14px 3px rgba(66, 66, 201, 0.33);
+}
+.card-section .card:hover{
+    box-shadow: 2px 3px 14px 3px rgba(66, 66, 201, 0.555);
+}
+.card-section{
+    padding: 50px 0;
+
+}
+.card-section .btn.btn-primary.btn-lg.px-3:hover {
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+    box-shadow: 0 0 16px 1px #0000ff8f;
+}
+.card-section .btn.btn-primary.btn-lg.px-3 {
+    width: 172px;
+    height: 62px;
+    line-height: 43px;
+    font-weight: 800;
+    border: 2px solid transparent;
+    background: #9742dd;
+   
+}
+
+
+
+.btn-div-2 {
+    padding: 15px 26px;
+    background: #448f3e;
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+    box-shadow: 3px 3px 25px -4px green;
+   
+    float: right;
+    
+    
+}
+.btn-div-2:hover {
+    background: #000000;
+    color: white;
+    box-shadow: 3px 3px 25px -4px transparent;
+   
+}
+.btn-div-1{
+    padding: 15px 26px;
+    background: #ffffff;
+    color: rgb(35, 133, 22);
+    border: 2px solid rgb(35, 133, 22);
+    font-weight: 700;
+    transition: .5s;
+    box-shadow: 3px 3px 25px -4px transparent;
+    float: left;
+}
+.btn-div-1:hover{
+    border: 2px solid transparent;
+    background: rgb(35, 133, 22);
+    color: white;
+    box-shadow: 3px 3px 25px -4px green;
+}
+.btn-div-1 i{
+
+    padding: 0 10px;
+}
+.btn-div-2 i{
+
+    padding: 0 10px;
+}
+.footer-btn.my-5.mx-auto {
+    width: 37%;
+}
+.main-section{
+    background: rgb(190, 241, 148);
+    color: red;
+}
+.mb-0.lead {
+    font-size: 26px;
+    font-weight: bold;
+}

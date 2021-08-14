@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wepper{
+    width: 1000px;
+   
+    margin: auto;
+}
+.manu{
+    background: rgb(0, 0, 0);
+
+}
+.manu ul {
+     list-style: none;
+     display: flex;
+    
+     
+}
+.manu ul li{
+    flex-grow: 1;
+    
+
+}
+.manu ul li a{
+    display: block;
+       padding: 10px 20px;
+       color: red;
+       text-decoration: none;
+       border: 1px solid #fff;
+       transition: .5s;
+}
+.manu ul li a span {
+    font-size: 20px;
+    padding: 0 3px;
+}
+
+.manu ul li a:hover{
+    background: red;
+    color: black;
+}
+
+
+.row-2{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+.row-2-item{
+    border: 1px solid blue;
+    padding: 10px;
+    background: yellow;
+}
+
+.row-3{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+.row-3-item{
+    border: 1px solid blue;
+    padding: 10px;
+    background: red;
+}
+
+
+.row-4{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+.row-4-item{
+    border: 1px solid blue;
+    padding: 10px;
+    background: black;
+    color: red;
+}
+
+
+.row-5{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+   
+}
+.row-5-item{
+    border: 1px solid blue;
+    padding: 10px;
+    flex-basis: 30%;
+    background: orange;
+}
+.middile-item{
+        flex-basis: 70%;
+        background: green;
+}
+
+.row-6{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+   
+}
+.row-6-item{
+    border: 1px solid blue;
+    padding: 10px;
+    flex-basis: 70%;
+    background: yellow;
+
+}
+.middile-item-6{
+       
+        flex-basis: 30%;
+        background: pink;
+}
+
+
+.row-7{
+    margin-top: 10px;
+    display: flex;   
+    text-align: center;
+}
+.row-7-item{
+    border: 1px solid blue;
+    padding: 10px;
+    flex: 1 0 0%;
+    background: blue;
+    
+}
+.middile-item-7{
+       flex-grow: 3;
+       background: yellow;
+}
